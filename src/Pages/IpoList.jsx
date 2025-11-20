@@ -47,7 +47,7 @@ export default function IPOList() {
                   {ipo.minAmount}
                   <p className="text-gray-600 text-sm">{ipo.lotSize}</p>
                 </td>
-              </tr>
+              </tr> 
             ))}
           </tbody>
         </table>

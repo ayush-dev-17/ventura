@@ -9,7 +9,7 @@ import { IPOProvider } from "./context/IpoContext.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <IPOProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/ventura">
         <App />
       </BrowserRouter>
     </IPOProvider>
